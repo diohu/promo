@@ -33,6 +33,12 @@ input[type="text"], [type="password"]{
    border: none;
    border-radius: 4px;
    margin-bottom: 20px;
+   padding-left: 5px;
+}
+
+label[for="name"], [for="passw"]{
+   margin-bottom: -10px;
+   display: block;
 }
 button{
    width: 278px;
