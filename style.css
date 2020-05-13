@@ -1,0 +1,20 @@
+body{
+   background: url(bg.jpg) center / cover no-repeat;
+}
+.wrapper{
+   margin: 0 auto;
+   width: 500px;
+   height: 500px;
+   margin-top: 20px;
+}
+.tittle{
+   width: 300px;
+   height: 50px;
+   background-color: rgb(255, 255, 255, 0.7);
+   font-size: 20px;
+   border-top-left-radius: 8px;
+   border-top-right-radius: 8px;
+   text-align: center;
+   line-height: 50px;
+   text-transform: uppercase;
+}
