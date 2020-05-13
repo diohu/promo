@@ -1,5 +1,6 @@
 body{
    background: url(bg.jpg) center / cover no-repeat;
+   box-sizing: border-box;
 }
 .wrapper{
    margin: 0 auto;
@@ -8,7 +9,7 @@ body{
    margin-top: 20px;
 }
 .tittle{
-   width: 300px;
+   width: 320px;
    height: 50px;
    background-color: rgb(255, 255, 255, 0.7);
    font-size: 20px;
@@ -17,4 +18,13 @@ body{
    text-align: center;
    line-height: 50px;
    text-transform: uppercase;
+}
+.content{
+   margin-top: 20px;
+   width: 300px;
+   height: 300px;
+   background-color: rgb(255, 255, 255, 0.7);
+   text-align: center;
+   display: block;
+   padding: 20px 10px 20px 10px;
 }
